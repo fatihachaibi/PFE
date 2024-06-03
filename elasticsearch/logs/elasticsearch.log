@@ -1,0 +1,8 @@
+[2024-06-03T11:41:04,149][WARN ][o.e.t.ThreadPool         ] [CHAIBI] execution of [ReschedulingRunnable{runnable=org.elasticsearch.indices.IndexingMemoryController$ShardsIndicesStatusChecker@57ad5565, interval=5s}] took [75354631ms] which is above the warn threshold of [5000ms]
+[2024-06-03T11:41:02,580][WARN ][o.e.t.ThreadPool         ] [CHAIBI] timer thread slept for [20.9h/75348994ms] on absolute clock which is above the warn threshold of [5000ms]
+[2024-06-03T11:41:06,745][WARN ][o.e.t.ThreadPool         ] [CHAIBI] timer thread slept for [20.9h/75354631596300ns] on relative clock which is above the warn threshold of [5000ms]
+[2024-06-03T11:41:06,697][INFO ][o.e.x.m.MlDailyMaintenanceService] [CHAIBI] triggering scheduled [ML] maintenance tasks
+[2024-06-03T11:41:06,960][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [CHAIBI] Deleting expired data
+[2024-06-03T11:41:07,206][INFO ][o.e.x.m.j.r.UnusedStatsRemover] [CHAIBI] Successfully deleted [0] unused stats documents
+[2024-06-03T11:41:07,214][INFO ][o.e.x.m.a.TransportDeleteExpiredDataAction] [CHAIBI] Completed deletion of expired ML data
+[2024-06-03T11:41:07,216][INFO ][o.e.x.m.MlDailyMaintenanceService] [CHAIBI] Successfully completed [ML] maintenance task: triggerDeleteExpiredDataTask
