@@ -1,3 +1,9 @@
 *.largefileextension filter=lfs diff=lfs merge=lfs -text
 logstash/jdk/lib/src.zip filter=lfs diff=lfs merge=lfs -text
 logstash/vendor/bundle/jruby/2.5.0/gems/logstash-filter-geoip-7.2.12-java/vendor/GeoLite2-City.mmdb filter=lfs diff=lfs merge=lfs -text
+elasticsearch/modules/x-pack-ml/platform/windows-x86_64/bin/torch_cpu.dll filter=lfs diff=lfs merge=lfs -text
+kibana/node/node.exe filter=lfs diff=lfs merge=lfs -text
+kibana/x-pack/plugins/screenshotting/chromium/chrome-win/interactive_ui_tests.exe filter=lfs diff=lfs merge=lfs -text
+logstash/jdk/lib/modules filter=lfs diff=lfs merge=lfs -text
+elasticsearch/jdk/lib/modules filter=lfs diff=lfs merge=lfs -text
+kibana/x-pack/plugins/screenshotting/chromium/chrome-win/chrome.dll filter=lfs diff=lfs merge=lfs -text
